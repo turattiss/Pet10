@@ -1,0 +1,71 @@
+html, body {
+    height: 100%; /* Garante que o corpo ocupe a altura total da tela */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row; /* Organiza o cabeçalho e o corpo verticalmente */
+}
+
+#layout {
+    width: 50%;
+    height: 100%; /* Ajusta a altura para 50% da altura da tela */
+    background-color: #8cc2c0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha horizontalmente o conteúdo dentro da div */
+    position: relative;
+}
+
+#titulo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 70px; /* Ajusta o tamanho da fonte para melhor visibilidade */
+    position: absolute; /* Permite posicionar o título em uma posição específica */
+    bottom: 650px; /* Define a distância da parte inferior da div para o título */
+    left: 50%; /* Centraliza horizontalmente o título */
+    transform: translateX(-50%); /* Ajusta a posição horizontalmente para o centro */
+}
+
+/* Ajuste o tamanho da imagem conforme necessário */
+#imagemLayout {
+    width: 700px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    position: absolute; /* Posiciona a imagem em relação ao #layout */
+    bottom: 1px; /* Define a distância da parte inferior da div para a imagem */
+}
+
+#layout2 {
+    width: 50%;
+    height: 100%; /* Ajusta a altura para 50% da altura da tela */
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha horizontalmente o conteúdo dentro da div */
+    justify-content: center;
+    position: relative;
+}
+
+.botao {
+    background-color: #8cc2c0;
+    color: #fff;
+    border: solid 1px #8cc2c0;
+    border-radius: 50px;
+    width: 700px;
+    height: 80px;
+    margin: 10px 0;
+    font-weight: bold; /* Adiciona negrito ao texto */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+
+.botao:hover {
+    width: 850px;
+    height: 90px;
+}
