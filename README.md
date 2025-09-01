@@ -13,4 +13,4 @@ Decidi criar este site para praticar meus conhecimentos de HTML, CSS e JavaScrip
 - JavaScript  
 
 ## Status
-Em desenvolvimento..  
+Em desenvolvimento.
